@@ -1,6 +1,6 @@
 site:
   name: AstroWind
-  site: 'https://lp.uqbar.com.br'
+  site: 'https://moderfla.github.io'
   base: '/uqwind/'
   trailingSlash: false
 
