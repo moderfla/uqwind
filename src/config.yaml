@@ -1,39 +1,39 @@
 site:
   name: AstroWind
-  site: 'https://astrowind.vercel.app'
-  base: '/'
+  site: 'https://lp.uqbar.com.br'
+  base: '/uqwind/'
   trailingSlash: false
 
-  googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
+  googleSiteVerificationId: false
 
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: Uqbar
+    template: '%s — Uqbar'
+  description: "\U0001F680 Uqbar: Líder em Inteligência Financeira e Conexões de Mercado"
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: Uqbar
     images:
       - url: '~/assets/images/default.png'
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: '@onwidget'
-    site: '@onwidget'
+    handle: '@twitt_uqbar'
+    site: '@twitt_uqbar'
     cardType: summary_large_image
 
 i18n:
-  language: en
+  language: pt-br
   textDirection: ltr
 
 apps:
   blog:
-    isEnabled: true
+    isEnabled: false
     postsPerPage: 6
 
     post:
@@ -66,7 +66,7 @@ analytics:
       id: null # or "G-XXXXXXXXXX"
 
 ui:
-  theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
+  theme: 'light:only' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
 
   tokens:
     default:
